@@ -1,0 +1,12 @@
+var n1 = 0;
+while (n1 < 100){
+    if ( n1 % 15 == 0){
+         print "fizzbuzz"; 
+    } else if (n1 % 5 == 0){
+            print "fizz";
+   } else if (n1 %3 == 0)
+      print "buzz";
+else{ print n1;}
+    n1 = n1+1;
+    
+}
